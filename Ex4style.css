@@ -1,0 +1,64 @@
+
+body{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: auto;
+    grid-template-areas: "header header header"
+                        "nav main aside"
+                        "footer footer footer";
+}
+
+header{
+    background-color: #283618;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    grid-area: header;
+}
+
+nav{
+    background-color: #faedcd;
+    padding: 0.2em;
+    grid-area: nav;
+}
+
+nav p{
+    padding: 0.2em;
+}
+
+main{
+    background-color: #dda15e;
+    font-weight: 50;
+    padding: 1em;
+    color: white;
+    grid-area: main;
+}
+
+main h1{
+    font-size: 20px;
+    color: white;
+}
+
+aside{
+    background-color: #faedcd;
+    grid-area: aside;
+}
+
+aside h1{
+    font-size: 20px;
+    padding: 1em;
+    color: darkgray;
+}
+
+aside p{
+    padding: 0.2em;
+    margin: 2px;
+}
+
+footer{
+    background-color: #283618;
+    color: white;
+    text-align: center;
+    grid-area: footer;
+}
