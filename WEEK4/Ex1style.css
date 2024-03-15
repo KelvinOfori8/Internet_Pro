@@ -1,0 +1,47 @@
+body{
+    font-family: sans-serif;
+}
+
+.csym019{
+    width: 48%;
+    background-color: cyan;
+    display: inline;
+    padding: 20px 5px;
+    border: solid black 2px;
+    border-radius: 20px;
+    float: left;
+
+    
+}
+
+.csym015{
+    width: 48%;
+    background-color: yellow;
+    display: inline;
+    padding: 20px 5px;
+    border: solid black 2px;
+    border-radius: 20px;
+    float: right;
+}
+
+.csym021{
+    width: 48%;
+    background-color: lightblue;
+    display: inline;
+    margin-top: 20px;
+    padding: 20px 5px;
+    border: solid black 2px;
+    border-radius: 20px;
+    float: right;
+}
+
+.csym023{
+    width: 48%;
+    background-color: violet;
+    display: inline;
+    margin-top: 20px;
+    padding: 20px 5px;
+    border: solid black 2px;
+    border-radius: 20px;
+    float: left;
+}
